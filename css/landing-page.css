@@ -20,14 +20,14 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: black;
+  background: url("../img/bg-masthead-transparency2.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-header.masthead .overlay {
+/* header.masthead .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
@@ -35,16 +35,20 @@ header.masthead .overlay {
   top: 0;
   left: 0;
   opacity: 0.3;
-}
+} */
 
 header.masthead h1 {
   font-size: 2rem;
 }
 
+header.masthead img {
+  max-width: 70%;
+}
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -81,6 +85,7 @@ header.masthead h1 {
 
 .features-icons .features-icons-item .features-icons-icon i {
   font-size: 4.5rem;
+  color: #0097a7 !important;
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
