@@ -21,10 +21,9 @@ h6 {
 header.masthead {
   position: relative;
   background-color: black;
-  background: url("../img/bg-masthead-transparency2.jpg") no-repeat center center;
+  background: url("../img/bg-masthead-transparency.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+
 }
 
 /* header.masthead .overlay {
@@ -47,8 +46,8 @@ header.masthead img {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
   header.masthead h1 {
     font-size: 3rem;
