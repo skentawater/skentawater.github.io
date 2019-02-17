@@ -68,6 +68,13 @@ header.masthead img {
   background-size: cover;
 }
 
+.sistema {
+  background-position: center center;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-color: #434343;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
